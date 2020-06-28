@@ -28,17 +28,29 @@ Entonces, la curva de mejor ajuste para ambas gráficas corresponde a:
  
  ## 3: Correlación, covarianza y coeficiente de correlación de Pearson
  Para esta sección, se utiliza el segundo documento xyp.csv para averiguar primero, la correlación. El valor de la correlación, al ser de forma discreta corresponde a la sumatoria de xy*f(x,y) y se representa con Rxy. Por lo tanto:
+ 
  Rxy = E[XY]
+ 
  Para este cálculo simplemente se utiliza el acomodo del documento xyp.csv multiplicando las columnas. Estas multiplicaciones se suman, y resulta en:
+ 
  Rxy = 149.5428
+ 
  Si ambas variables no estan correlacionadas, el resultado con el segundo método debería ser el mismo al primero. Este segundo método corresponde a: 
+ 
  Rxy = E[X]E[Y]
+ 
  Rxy es una medida de que tan similares son ambas variables aleatorias. Al calcularlo de esta forma: 
+ 
  E[X]E[Y] = 149.4840
+ 
  Este valor es muy similar al calculado previamente (Rxy) y por esto se puede decir que ambos datos no estan correlacionados. Ahora se calcula la covarianza, que corresponde a la resta de ambos resultados anteriores, verificando su similitud. 
+ 
  Cxy = Rxy - E[X]E[Y] = 0.0587614 
+ 
  Este resultado indica la similitud entre dos variables aleatorias, al ser este valor tan cercano a 0, se verifica que no estan relacionadas. Ahora se calcula el resultado del coeficiente de pearson, otra medida que verifica nuevamente que tan similares son estas variables aleatorias. Si el coeficiente es cercano a 1 hay una distribución de pendiente positiva o si fuese cercano a -1 la pendiente de distribución sería negativa. 
+ 
  Cp = Cxy/σxσy = 0.00295498
+ 
  ## Parte 4: Gráficas:
  Las gráficas de 2D de las funciones de mejor ajuste para las funciones marginales de X y Y. Se grafíca con matplotlib: 
  <img src="../master/Imagenes/MejorAjusteX.png" width="400"> 
