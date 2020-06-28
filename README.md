@@ -2,9 +2,9 @@
 ## 1: Curva de mejor ajuste para funciones de densidad marginales de X y Y
 Se analizan los datos de xy.csv, se grafican los resultados de ambas densidades marginales. A partir de la gráfica, se determina la curva de mejor ajuste.
 
-<img src="../master/Imagenes/marginalX.png" width="200"> 
+<img src="../master/Imagenes/marginalX.png" width="400"> 
 
-<img src="../master/Imagenes/marginalY.png" width="200"> 
+<img src="../master/Imagenes/marginalY.png" width="400"> 
 
 Se observa que ambas tienen un comportamiento de distribución normal, por lo tanto, en el código se programa la función y se utiliza el curve_fit para determinar los parametros de la curva, que corresponde a una gaussiana. Estos parametros son sigma y mu. Los resultados son: 
 + μx = 9.9048
@@ -13,14 +13,14 @@ Se observa que ambas tienen un comportamiento de distribución normal, por lo ta
 + σy = 6.0269
 
 Entonces, la curva de mejor ajuste para ambas gráficas corresponde a: 
- <img src="../master/Imagenes/normal.png" width="200"> 
+ <img src="../master/Imagenes/normal.png" width="400"> 
  Cada una con sus respectivos sigma y mu. 
  ## 2: Función de densidad conjunta
  Para esta sección, al asumir independencia de X y Y, se calcula la función de densidad conjunta, realizando la multiplicación de ambas curvas. Se reemplazan los valores de mu y sigma en la ecuación anterior para ambas curvas y se multiplican, obteniendo el siguiente resultado:
 
 
 
- <img src="../master/Imagenes/pdf.png" width="200"> 
+ <img src="../master/Imagenes/pdf.png" width="400"> 
  
  
  
@@ -39,10 +39,10 @@ Entonces, la curva de mejor ajuste para ambas gráficas corresponde a:
  Cp = Cxy/σxσy = 0.00295498
  ## Parte 4: Gráficas:
  Las gráficas de 2D de las funciones de mejor ajuste para las funciones marginales de X y Y. Se grafíca con matplotlib: 
- <img src="../master/Imagenes/MejorAjusteX.png" width="200"> 
+ <img src="../master/Imagenes/MejorAjusteX.png" width="400"> 
  
-  <img src="../master/Imagenes/MejorAjusteY.png" width="200"> 
+  <img src="../master/Imagenes/MejorAjusteY.png" width="400"> 
 
  Finalmente, se grafíca la función en 3D con Axes 3D de la función de densidad conjunta. 
  
-  <img src="../master/Imagenes/Grafico3D.png" width="200"> 
+  <img src="../master/Imagenes/Grafico3D.png" width="400"> 
