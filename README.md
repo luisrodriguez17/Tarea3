@@ -14,7 +14,7 @@ Se observa que ambas tienen un comportamiento de distribución normal, por lo ta
 
 Entonces, la curva de mejor ajuste para ambas gráficas corresponde a: 
 
- <img src="../master/Imagenes/normal.png" width="100"> 
+ <img src="../master/Imagenes/funcion.png" width="100"> 
  
  Cada una con sus respectivos sigma y mu. 
  ## 2: Función de densidad conjunta
