@@ -13,7 +13,9 @@ Se observa que ambas tienen un comportamiento de distribución normal, por lo ta
 + σy = 6.0269
 
 Entonces, la curva de mejor ajuste para ambas gráficas corresponde a: 
+
  <img src="../master/Imagenes/normal.png" width="400"> 
+ 
  Cada una con sus respectivos sigma y mu. 
  ## 2: Función de densidad conjunta
  Para esta sección, al asumir independencia de X y Y, se calcula la función de densidad conjunta, realizando la multiplicación de ambas curvas. Se reemplazan los valores de mu y sigma en la ecuación anterior para ambas curvas y se multiplican, obteniendo el siguiente resultado:
