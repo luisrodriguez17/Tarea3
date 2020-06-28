@@ -18,7 +18,11 @@ Entonces, la curva de mejor ajuste para ambas gráficas corresponde a:
  ## 2: Función de densidad conjunta
  Para esta sección, al asumir independencia de X y Y, se calcula la función de densidad conjunta, realizando la multiplicación de ambas curvas. Se reemplazan los valores de mu y sigma en la ecuación anterior para ambas curvas y se multiplican, obteniendo el siguiente resultado:
 
+
+
  <img src="../master/Imagenes/pdf.png" width="200"> 
+ 
+ 
  
  ## 3: Correlación, covarianza y coeficiente de correlación de Pearson
  Para esta sección, se utiliza el segundo documento xyp.csv para averiguar primero, la correlación. El valor de la correlación, al ser de forma discreta corresponde a la sumatoria de xy*f(x,y) y se representa con Rxy. Por lo tanto:
